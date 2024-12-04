@@ -2,12 +2,12 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import HeaderTop from "@/components/HeaderTop";
 import HeaderMain from "@/components/HeaderMain";
-import Navbar from "@/components/Navbar";
 import MobNavbar from "@/components/MobNavbar";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <HeaderTop />
         <HeaderMain />
-        <Navbar />
+        <NavBar />
         <MobNavbar />
         {children}
         <Footer />

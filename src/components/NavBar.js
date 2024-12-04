@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+const NavBar = () => {
   return (
     <div className="hidden lg:block">
       <div className="container">
@@ -19,4 +19,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
